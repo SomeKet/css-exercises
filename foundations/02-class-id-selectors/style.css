@@ -1,0 +1,22 @@
+.class{
+    background-color: lightcoral;
+    font-size:20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.class.cooler{
+font-size: 40px;
+font-weight:bold;
+}
+
+.id{
+    font-size:28px;
+    background-color: greenyellow;
+    font-weight: bolder;
+}
+
+#one{
+    color:blue;
+    font-size:70px;
+}
+

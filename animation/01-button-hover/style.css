@@ -1,6 +1,7 @@
-#transition-container {
-  width: 100vw;
-  height: 100vh;
+#transition-container, #anotherButton {
+  border:5px solid black;
+  width: 200px;
+  height: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,7 +9,7 @@
   font-family: Arial, sans-serif;
 }
 
-button {
+button{
   border-radius: 8px;
   border: none;
   background-color: #2563eb;
@@ -16,4 +17,13 @@ button {
   font-size: 18px;
   padding: 16px 24px;
   text-align: center;
+  transition: transform .3s ease-in-out;
+
+}
+#o1:hover {
+  transform:scale(1.2);
+}
+
+#o2:hover{
+  transform:scale(0.6);
 }

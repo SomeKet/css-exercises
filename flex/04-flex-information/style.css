@@ -3,26 +3,29 @@ body {
   text-align:center;
 }
 
-.container{
-  display: flex;
-  justify-content: center;
-  gap:52px;
-}
-
-.box{
-max-width: 200px;
-}
-
 img {
   width: 100px;
   height: 100px;
 }
 
+.container{
+  display:flex;
+  justify-content: space-around;
+  gap: 52px;
+
+}
+
+.box{
+  max-width: 200px;
+}
+
+
 .title {
+  display:flex;
+  justify-content:centeR;
   font-size: 36px;
   font-weight: 900;
-  display:flex;
-  justify-content: center;
+  margin-bottom: 38px;
 }
 
 /* do not edit this footer */
